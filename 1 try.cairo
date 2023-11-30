@@ -3,10 +3,10 @@ mod HelloStarknet {
     use starknet::get_caller_address;
     use starknet::ContractAddress;
 
-
+..
    #[event] //just added
     fn Hello(from: ContractAddress, value: felt252) {}
-
+..
 
 /*
 *ruturn 
